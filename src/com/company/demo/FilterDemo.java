@@ -13,10 +13,6 @@ public class FilterDemo {
     public static void main(String[] args) {
         List<User> users = new ArrayList<User>();
 
-        users.add(new User("Aruzhan","Amangeldieva", "Lily", Gender.FEMALE, 19, MaritalStatus.SINGLE, Status.ONLINE));
-        users.add(new User("Umit","Kumarova", "Unit", Gender.FEMALE, 18, MaritalStatus.SINGLE, Status.ONLINE));
-        users.add(new User("Shyngys","Rakhad", "China", Gender.MALE, 18, MaritalStatus.SINGLE, Status.OFFLINE));
-        users.add(new User("Beigut","Beisenkhan", "Not1deal", Gender.MALE, 17, MaritalStatus.SINGLE, Status.ONLINE));
         users.add(new User("Adam","Smith", "Adom", Gender.MALE, 53, MaritalStatus.DIVORCED, Status.OFFLINE));
         users.add(new User("Anne","Marlyn", "Monro", Gender.FEMALE, 75, MaritalStatus.WIDOWED, Status.OFFLINE));
         users.add(new User("Sam","David", "1LoveSally", Gender.MALE, 27, MaritalStatus.MARRIED, Status.ONLINE));
