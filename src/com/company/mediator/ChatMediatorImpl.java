@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChatMediatorImpl implements ChatMediator{
+    //TODO Mediator
     private List<Member> users;
     private Chat chat;
     private long seconds;

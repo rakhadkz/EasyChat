@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Channel implements Subject{
+    //TODO Observer
     private List<Subscriber> subscribers;
 
     public Channel(){

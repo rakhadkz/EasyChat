@@ -79,6 +79,8 @@ public class Member extends User implements IMember {
     public void receiveMessage(Message message) throws InterruptedException {
         message.setAuthor(this);
         System.out.println(this.getUsername() + ": received " + message.toString());
+
+        //Secret Chat Deleting Process
         if (mediator.getChat() instanceof SecretChat){
             Message deleted = mediator.getChat().getMessages().get(0);
             TimeUnit.SECONDS.sleep(mediator.getSeconds());

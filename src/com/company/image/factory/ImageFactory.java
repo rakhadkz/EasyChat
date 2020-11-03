@@ -3,6 +3,7 @@ package com.company.image.factory;
 import com.company.image.types.*;
 
 public class ImageFactory implements IImage{
+    //TODO Factory Method
     @Override
     public Image selectImage(int bytes, String imageName, String imageEx){
         switch (imageEx){

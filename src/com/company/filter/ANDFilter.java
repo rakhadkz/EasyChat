@@ -5,6 +5,7 @@ import com.company.user.User;
 import java.util.List;
 
 public class ANDFilter implements Filter {
+    //TODO Filter
     private Filter first;
     private Filter second;
 
