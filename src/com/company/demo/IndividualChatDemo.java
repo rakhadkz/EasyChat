@@ -1,8 +1,12 @@
 package com.company.demo;
 
 import com.company.Database;
+import com.company.Media;
 import com.company.Message;
 import com.company.chat.IndividualChat;
+import com.company.image.factory.ImageFactory;
+import com.company.image.types.Image;
+import com.company.image.types.JPEG;
 import com.company.user.Member;
 
 import java.sql.SQLException;
@@ -29,7 +33,8 @@ public class IndividualChatDemo {
             individualChat.setUser2(user4);
 
             //method sendMessage();
-            user3.sendMessage(new Message("Hi"));
+            Image image = new ImageFactory().selectImage(1024, "cat", "svg");
+            user3.sendMessage(new Message(image));
             user3.sendMessage(new Message("How are you, bro?"));
 
             individualChat.getChatHistory();
