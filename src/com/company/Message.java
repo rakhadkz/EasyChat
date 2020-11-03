@@ -10,6 +10,7 @@ public class Message {
     private User author;
     private Date date;
     private String text;
+
     private Media media;
     private File file;
 

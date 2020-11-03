@@ -32,7 +32,7 @@ public class GroupChatDemo {
             messages.add(message);
 
             //To create GroupChat class
-            GroupChat chat = new GroupChat(messages,list);
+            GroupChat chat = new GroupChat(messages, list);
 
             //Notify a message to all members
             user1.sendMessage(new Message("Hello"));

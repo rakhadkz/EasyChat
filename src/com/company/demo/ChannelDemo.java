@@ -17,9 +17,11 @@ public class ChannelDemo {
 
         Channel KZnews = new Channel();
 
-        Subscriber subscriber1 = new Subscriber(KZnews,"Umit");
-        Subscriber subscriber2 = new Subscriber(KZnews, "Beigut");
+        Subscriber subscriber1 = new Subscriber(KZnews,"Sanat");
+        Subscriber subscriber2 = new Subscriber(KZnews, "Kanat");
         Subscriber subscriber3 = new Subscriber(KZnews, "Shyngys");
+        Subscriber subscriber4 = new Subscriber(KZnews, "Sunnatbek");
+        Subscriber subscriber5 = new Subscriber(KZnews, "Raiymbek");
 
         ChannelAdmin user1 = new ChannelAdmin(KZnews);
         user1.sendMessage(m1);
